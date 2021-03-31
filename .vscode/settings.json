@@ -1,0 +1,34 @@
+{
+  "workbench.colorTheme": "Monokai Classic",
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "Monokai Classic Icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "FIXME",
+      "color": "#333",
+      "backgroundColor": "#e67e22"
+    },
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "TODO",
+      "color": "#333",
+      "backgroundColor": "#2ecc71"
+    }
+  ],
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cucumberautocomplete.steps": [
+    "features/support/*.js"
+    //"node_modules/qa-lib/src/step_definitions/*.js"
+  ],
+  "cucumberautocomplete.strictGherkinCompletion": true
+}

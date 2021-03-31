@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "motorrijtuigenbelasting",
+    "line": 1,
+    "id": "motorrijtuigenbelasting",
+    "tags": [],
+    "uri": "features\\file.feature",
+    "elements": [
+      {
+        "id": "motorrijtuigenbelasting;motorrijtuigenbelasting",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "motorrijtuigenbelasting",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Navigate to the webpage",
+            "match": {
+              "location": "features\\support\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I am on the page",
+            "match": {
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I provide the data for motor",
+            "match": {
+              "location": "features\\support\\steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the result of the amount of vehicle tax I should pay",
+            "match": {
+              "location": "features\\support\\steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
